@@ -21,7 +21,7 @@
 .nav-text h3 {
   font-size: 15px;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 25px;
   font-weight: 700;
 }
 .nav-text h4 {
@@ -40,7 +40,6 @@
 .nav-text p {
   font-size: 13px;
   margin: 0;
-  margin-top: 10px;
 }
 #bordino {
   height: 5px;
