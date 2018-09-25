@@ -1,12 +1,52 @@
 /* TYPHOGRAPHY & IMAGES */
 * {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .logo {
-  background: blue;
+  height: 50px;
+  width: 70%;
+  margin-top: 15px;
+}
+.nav-text {
   height: 50px;
   width: 80%;
+  color: #696a67;
+  margin: 0;
+  margin-left: 10px;
+}
+.nav-text .fas, .nav-text .far {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.nav-text h3 {
+  font-size: 15px;
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.nav-text h4 {
+  font-size: 15px;
+  margin: 0;
+  margin-top: 120px;
+  font-weight: 700;
+}
+.nav-text h5 {
+  font-size: 15px;
+  margin: 0;
+  margin-top: 110px;
+  font-weight: 700;
+  color: white;
+}
+.nav-text p {
+  font-size: 13px;
+  margin: 0;
   margin-top: 10px;
+}
+#bordino {
+  height: 5px;
+  width: 90%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #696a67;
 }
 /* DIV & CONTAINER  */
 .flex-cont {
@@ -19,14 +59,15 @@
 .nav-sx {
   flex-direction: column;
   background: #040503;
-  width: 12%;
-  height: 85vh;
+  width: 15%;
+  height: 87vh;
   align-items: center;
+  flex-grow: 3;
 }
 .main-right {
   flex-direction: column;
-  height: 85vh;
-  width: 88%;
+  height: 87vh;
+  width: 85%;
   background: linear-gradient( #252f1d , #080a07);
 }
 .head {
@@ -38,6 +79,6 @@
 .foot-er {
   width: 100%;
   background: #282828;
-  height: 20vh;
+  height: 13vh;
 }
 /* MEDIA QUERY */
