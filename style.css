@@ -2,5 +2,42 @@
 * {
   font-family: 'Source Sans Pro', sans-serif;
 }
+.logo {
+  background: blue;
+  height: 50px;
+  width: 80%;
+  margin-top: 10px;
+}
 /* DIV & CONTAINER  */
+.flex-cont {
+  display: flex;
+}
+.main {
+  flex-direction: row;
+  width: 100%;
+}
+.nav-sx {
+  flex-direction: column;
+  background: #040503;
+  width: 12%;
+  height: 85vh;
+  align-items: center;
+}
+.main-right {
+  flex-direction: column;
+  height: 85vh;
+  width: 88%;
+  background: linear-gradient( #252f1d , #080a07);
+}
+.head {
+  height: 20%;
+}
+.bod-y {
+  height: 80%;
+}
+.foot-er {
+  width: 100%;
+  background: #282828;
+  height: 20vh;
+}
 /* MEDIA QUERY */
