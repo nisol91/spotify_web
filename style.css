@@ -72,6 +72,43 @@
   color: white;
   margin-top: 20px;
 }
+.control-sx img {
+  width: 60px;
+}
+.control-sx p {
+  font-size: 10px;
+  margin: 0;
+  color: #666969;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.control-sx h3 {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: white;
+}
+.fa-plus {
+  margin-top: 25px;
+  padding-left: 20px;
+  color: #666969;
+}
+.command-s i {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #666969;
+}
+.command-s .fa-play-circle {
+  font-size: 35px;
+  margin: 0;
+  color: white;
+}
+.minut-e p {
+  font-size: 12px;
+  color: white;
+  margin: 13px 15px;
+}
 /* DIV & CONTAINER  */
 .flex-cont {
   display: flex;
@@ -92,7 +129,7 @@
   flex-direction: column;
   height: 87vh;
   width: 85%;
-  background: linear-gradient( #252f1d , #080a07);
+  background: linear-gradient( #2f393a , #080a07);
   overflow: scroll;
 }
 .head {
@@ -130,16 +167,33 @@
 .control-sx {
   width: 12%;
   height: 90%;
-  background: rgb(134, 172, 185);
+  /* background: rgb(134, 172, 185); */
+  flex-direction: row;
 }
 .control-center {
   width: 28%;
   height: 90%;
-  background: rgb(134, 172, 185);
+  /* background: rgb(134, 172, 185); */
+  flex-direction: column;
 }
 .control-dx {
   width: 9%;
   height: 90%;
   background: rgb(134, 172, 185);
+}
+.command-s {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.barra-cont {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.barra {
+  height: 5px;
+  background: #666969;
+  border-radius: 5px;
+  width: 600px;
+  margin-top: 20px;
 }
 /* MEDIA QUERY */
