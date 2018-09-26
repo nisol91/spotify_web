@@ -211,6 +211,7 @@
   border-radius: 5px;
   width: 600px;
   margin-top: 20px;
+  position: relative;
 }
 .barra-short {
   height: 5px;
@@ -219,5 +220,24 @@
   width: 90px;
   margin-top: 25px;
   margin-left: 5px;
+  position: relative;
+}
+.cerchio {
+  width:13px;
+	height:13px;
+	border-radius:50px;
+	background:white;
+  position: absolute;
+  left: 63px;
+  bottom: -4px;
+}
+.cerchio-vol {
+  width:13px;
+	height:13px;
+	border-radius:50px;
+	background:white;
+  position: absolute;
+  left: 7px;
+  bottom: -4px;
 }
 /* MEDIA QUERY */
