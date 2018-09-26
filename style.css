@@ -39,6 +39,9 @@ a {
   width: 20px;
   border-bottom: 2px solid #1db954;
 }
+.active-ii {
+  color: #1db954;
+}
 .daily img:hover {
   text-decoration: none;
   filter: opacity(.4);
