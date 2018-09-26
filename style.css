@@ -2,10 +2,51 @@
 * {
   font-family: 'Lato', sans-serif;
 }
+a {
+  color: #696a67;
+}
+.titoli a,.user-s a {
+  color: white;
+}
+.head a:hover {
+  text-decoration: none;
+  color: white;
+}
+.daily a:hover {
+  text-decoration: none;
+  color: white;
+}
+.nav-sx a:hover {
+  text-decoration: none;
+  color: white;
+}
+.foot-er i:hover {
+  color: white;
+}
+.play-y:hover {
+  border: 1px solid white;
+}
+.title-track h3:hover, .title-track p:hover {
+  text-decoration: underline;
+}
+.active {
+  width: 10px;
+  border-bottom: 2px solid #1db954;
+}
+.active-i {
+  margin: auto;
+  margin-top: 2px;
+  width: 20px;
+  border-bottom: 2px solid #1db954;
+}
+.daily img:hover {
+  text-decoration: none;
+  filter: opacity(.4);
+}
 .logo {
   height: 50px;
-  width: 70%;
-  margin-top: 15px;
+  width: 55%;
+  margin-top: 35px;
 }
 .nav-text {
   height: 50px;
@@ -117,9 +158,9 @@
 }
 .head h3 {
   color: #666969;
-  margin-left: 30px;
   font-size: 13px;
   font-weight: 700;
+  margin-right: 20px;
 }
 /* DIV & CONTAINER  */
 .flex-cont {
@@ -142,7 +183,7 @@
   height: 87vh;
   width: 85%;
   background: linear-gradient( #2f393a , #080a07);
-  overflow: scroll;
+  overflow: auto;
 }
 .head {
   height: 20%;
@@ -163,6 +204,7 @@
   width: 100%;
   justify-content: center;
   margin-top: 70px;
+  margin-bottom: 50px;
 }
 .box-x div {
   margin-right: 10px;
@@ -174,12 +216,12 @@
 .foot-er {
   width: 100%;
   background: #282828;
-  height: 13vh;
+  height: 12.9vh;
   justify-content: space-between;
   padding: 10px 10px;
 }
 .control-sx {
-  width: 12%;
+  width: auto;
   height: 90%;
   /* background: rgb(134, 172, 185); */
   flex-direction: row;
@@ -222,6 +264,17 @@
   margin-left: 5px;
   position: relative;
 }
+.p-40 {
+  height: 5px;
+  background: #1db954;
+  border-radius: 5px;
+  width: calc(90px * 0.5);
+  margin-top: 25px;
+  margin-left: 5px;
+  position: absolute;
+  left: -5px;
+  bottom: 0;
+}
 .cerchio {
   width:13px;
 	height:13px;
@@ -237,7 +290,36 @@
 	border-radius:50px;
 	background:white;
   position: absolute;
-  left: 7px;
+  left: 0;
   bottom: -4px;
 }
+.play-y {
+  width:30px;
+	height:30px;
+	border-radius:50px;
+  border: 1px solid #666969;
+  margin-top: 4px;
+  padding-bottom: 10px;
+}
+.control-center .fa-caret-right {
+  margin-left: 11px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.cerchio-vol.perc-10 {
+  left : 10%;
+}
+.cerchio-vol.perc-20 {
+  left : 20%;
+}
+.cerchio-vol.perc-30 {
+  left : 30%;
+}
+.cerchio-vol.perc-40 {
+  left : 40%;
+}
+.cerchio-vol.perc-50 {
+  left : 50%;
+}
+
 /* MEDIA QUERY */
