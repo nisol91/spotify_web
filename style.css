@@ -534,6 +534,9 @@ a {
   .fa-plus {
     padding-left: 7px;
   }
+  .daily h3,.daily p {
+    font-size: 10px;
+  }
 }
 @media (max-width: 500px) {
   .head h3 {
@@ -579,6 +582,9 @@ a {
     font-size: 8px;
     margin-top: 15px;
   }
+  .daily h3,.daily p {
+    font-size: 14px;
+  }
 }
 @media (min-width: 500px) {
   .head .fa-bars {
@@ -586,5 +592,10 @@ a {
   }
   .logo-i {
     display: none;
+  }
+}
+@media (min-height: 600px) {
+  .foot-er {
+    height: 10vh;
   }
 }
