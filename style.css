@@ -35,7 +35,7 @@ a {
 }
 .active-i {
   margin: auto;
-  margin-top: 2px;
+  margin-top: 0px;
   width: 20px;
   border-bottom: 2px solid #1db954;
 }
@@ -71,13 +71,15 @@ a {
 .nav-text h4 {
   font-size: 15px;
   margin: 0;
-  margin-top: 120px;
+  position: absolute;
+  bottom: 50px;
   font-weight: 700;
 }
 .nav-text h5 {
   font-size: 15px;
   margin: 0;
-  margin-top: 110px;
+  position: absolute;
+  bottom: 10px;
   font-weight: 700;
   color: white;
 }
@@ -87,8 +89,10 @@ a {
 }
 #bordino {
   height: 5px;
-  width: 90%;
-  padding-bottom: 10px;
+  width: 80%;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
   border-bottom: 1px solid #696a67;
 }
 .box-x img {
@@ -138,6 +142,11 @@ a {
   padding-left: 20px;
   color: #666969;
 }
+.fa-check {
+  margin-top: 25px;
+  padding-left: 20px;
+  color: #666969;
+}
 .command-s i {
   font-size: 12px;
   margin-top: 10px;
@@ -151,7 +160,7 @@ a {
 .minut-e p {
   font-size: 12px;
   color: white;
-  margin: 13px 15px;
+  margin: 10px 15px;
 }
 .control-dx i {
   font-size: 15px;
@@ -180,11 +189,13 @@ a {
   height: 87vh;
   align-items: center;
   flex-grow: 3;
+  position: relative;
 }
 .main-right {
   flex-direction: column;
   height: 87vh;
   width: 85%;
+  padding-left: 10px;
   background: linear-gradient( #2f393a , #080a07);
   overflow: auto;
 }
@@ -236,7 +247,7 @@ a {
   flex-direction: column;
 }
 .control-dx {
-  width: 14%;
+  width: 17%;
   height: 90%;
   /* background: rgb(134, 172, 185); */
   flex-direction: row;
@@ -271,7 +282,7 @@ a {
   height: 5px;
   background: #1db954;
   border-radius: 5px;
-  width: calc(90px * 0.5);
+  width: 50%;
   margin-top: 25px;
   margin-left: 5px;
   position: absolute;
@@ -301,12 +312,12 @@ a {
 	height:30px;
 	border-radius:50px;
   border: 1px solid #666969;
-  margin-top: 4px;
+  margin-top: 0px;
   padding-bottom: 10px;
 }
 .control-center .fa-caret-right {
-  margin-left: 11px;
-  margin-top: 5px;
+  margin-left: 12px;
+  margin-top: 4px;
   font-size: 20px;
 }
 .cerchio-vol.perc-10 {
@@ -326,3 +337,176 @@ a {
 }
 
 /* MEDIA QUERY */
+@media (min-width: 2000px) {
+  .nav-text h4 {
+    position: absolute;
+    bottom: 60px;
+  }
+  .nav-text h5 {
+    position: absolute;
+    bottom: 20px;
+  }
+  #bordino {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+  }
+  .head h3 {
+    font-size: 24px;
+    margin-right: 40px;
+  }
+  .control-sx h3 {
+    font-size: 20px;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+  .control-sx p {
+      font-size: 15px;
+      margin: 0;
+      color: #666969;
+      margin-left: 30px;
+      margin-top: 15px;
+  }
+  .fa-plus {
+    margin-top: 40px;
+    padding-left: 30px;
+  }
+  .control-sx img {
+    width: 35%;
+  }
+  .nav-text h3 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .nav-text p {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  .nav-text h4 {
+    font-size: 15px;
+  }
+  .nav-text h5 {
+    font-size: 15px;
+  }
+  .control-center {
+    margin-top: 25px;
+  }
+  .control-dx {
+    padding-left: 50px;
+    margin-top: 25px;
+  }
+  .control-sx {
+    width: 14%;
+  }
+  .nav-text {
+    margin-top: 50px;
+  }
+  .nav-text p {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 1500px) {
+  .nav-text h3 {
+    font-size: 11px;
+  }
+  .nav-text p {
+    font-size: 11px;
+  }
+  .control-dx i {
+    font-size: 13px;
+  }
+  .control-dx div {
+    /* margin-left: 30px; */
+  }
+  .control-sx h3 {
+    margin-top: 10px;
+  }
+  .fa-plus {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1240px) {
+  .control-sx h3 {
+    margin-top: 0px;
+  }
+  .fa-plus {
+    margin-top: 10px;
+  }
+  .command-s i {
+    margin-top: 3px;
+  }
+  .command-s div {
+    margin-top: -5px;
+  }
+  .barra-cont {
+    margin-top: 5px;
+  }
+  .control-dx {
+    width: 18%;
+    padding-right: 9px;
+    margin-top: -7px;
+  }
+  .control-sx img {
+    width: 25%;
+  }
+}
+@media (max-width: 1000px) {
+  .nav-text h3 {
+    font-size: 10px;
+  }
+  .nav-text p {
+    font-size: 8px;
+  }
+  .nav-text h4 {
+    font-size: 10px;
+  }
+  .nav-text h5 {
+    font-size: 10px;
+  }
+  .control-dx {
+    width: 22%;
+  }
+  .control-center {
+    width: 38%;
+    height: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .nav-text h3 {
+      font-size: 8px;
+  }
+  .head h3 {
+    font-size: 10px;
+  }
+  #bordino {
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+    left: 16px;
+  }
+  .control-dx {
+    width: 24%;
+  }
+  .barra-cont {
+    margin-top: 5px;
+    width: auto;
+  }
+  .barra {
+    height: 3px;
+    width: 600px;
+    margin-top: 21px;
+    position: relative;
+  }
+  .cerchio {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    left: 63px;
+    bottom: -4px;
+  }
+  .control-center {
+    width: 35%;
+    height: 90%;
+  }
+}
