@@ -158,9 +158,9 @@ a {
   color: white;
 }
 .minut-e p {
-  font-size: 12px;
+  font-size: 10px;
   color: white;
-  margin: 10px 15px;
+  margin: 5px 15px;
 }
 .control-dx i {
   font-size: 15px;
@@ -230,7 +230,7 @@ a {
 .foot-er {
   width: 100%;
   background: #282828;
-  height: 12.9vh;
+  height: 13vh;
   justify-content: space-between;
   padding: 10px 10px;
 }
@@ -266,7 +266,7 @@ a {
   background: #666969;
   border-radius: 5px;
   width: 600px;
-  margin-top: 20px;
+  margin-top: 11px;
   position: relative;
 }
 .barra-short {
@@ -495,7 +495,7 @@ a {
   .barra {
     height: 3px;
     width: 600px;
-    margin-top: 21px;
+    margin-top: 12px;
     position: relative;
   }
   .cerchio {
@@ -508,5 +508,11 @@ a {
   .control-center {
     width: 35%;
     height: 90%;
+  }
+  .nav-sx {
+    display: none;
+  }
+  .main-right {
+    width: 100%;
   }
 }
