@@ -516,3 +516,50 @@ a {
     width: 100%;
   }
 }
+@media (max-width: 650px) {
+  .control-dx {
+    width: 25%;
+    float: right;
+  }
+  .control-dx i {
+    display: none;
+  }
+  .control-center {
+    width: 50%;
+    height: 90%;
+  }
+  .control-sx p {
+    font-size: 8px;
+  }
+  .fa-plus {
+    padding-left: 7px;
+  }
+}
+@media (max-width: 500px) {
+  .head h3 {
+    display: none;
+  }
+  .head .fa-bars {
+    font-size: 30px;
+  }
+  .head {
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+  .logo-i {
+    display: block;
+    width: 100px;
+  }
+  .daily img {
+    flex-basis: 150px;
+  }
+}
+@media (min-width: 500px) {
+  .head .fa-bars {
+    display: none;
+  }
+  .logo-i {
+    display: none;
+  }
+}
