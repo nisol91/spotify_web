@@ -551,8 +551,20 @@ a {
     display: block;
     width: 100px;
   }
-  .daily img {
-    flex-basis: 150px;
+  .box-x {
+    flex-basis: 800px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-x div {
+    width: 60%;
+    margin-top: 30px;
+  }
+  .box-x img {
+    width: 85%;
+    text-align: center;
+    display: inherit;
+    margin: auto;
   }
 }
 @media (min-width: 500px) {
