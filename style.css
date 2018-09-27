@@ -550,6 +550,7 @@ a {
   .logo-i {
     display: block;
     width: 100px;
+    margin-left: 30px;
   }
   .box-x {
     flex-basis: 800px;
@@ -565,6 +566,18 @@ a {
     text-align: center;
     display: inherit;
     margin: auto;
+  }
+  .bod-y h1 {
+    margin: auto;
+    font-size: 30px;
+  }
+  .command-s i {
+    margin-top: 7px;
+    font-size: 7px;
+  }
+  .fa-plus {
+    font-size: 8px;
+    margin-top: 15px;
   }
 }
 @media (min-width: 500px) {
