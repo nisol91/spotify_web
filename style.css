@@ -29,6 +29,12 @@ a {
 .title-track h3:hover, .title-track p:hover {
   text-decoration: underline;
 }
+.h-active {
+  width: 30%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 2px solid #1db954;
+}
 .head a:active {
   margin: auto;
   margin-top: 0px;
@@ -41,6 +47,9 @@ a {
   width: inherit;
 }
 .nav-text a:active {
+  color: #1db954;
+}
+.green-a {
   color: #1db954;
 }
 .daily img:hover {
@@ -116,7 +125,7 @@ a {
 }
 .box-x img {
   width: 250px;
-  max-height: 207px;
+  max-height: 155px;
 }
 .bod-y h1 {
   font-size: 35px;
@@ -185,20 +194,23 @@ a {
   font-size: 15px;
   margin-top: 20px;
   color: #666969;
-  margin-right: 20px;
+  padding: 0 10px;
 }
 .head h3 {
   color: #666969;
   font-size: 13px;
   font-weight: 700;
-  margin-right: 20px;
+  padding: 0 15px;
 }
 .vol-media,.plus-media {
   display: none;
 }
-/* DIV & CONTAINER  */
+ /* DIV & CONTAINER  ----------------------------------------------------- */
 .flex-cont {
   display: flex;
+}
+.head-mini {
+  display: none;
 }
 .main {
   flex-direction: row;
@@ -288,6 +300,15 @@ a {
   margin-top: 11px;
   position: relative;
 }
+.avanzamento-50 {
+  height: 5px;
+  border-radius: 5px;
+  width: 50%;
+  margin-top: 25px;
+  position: absolute;
+  bottom: 0;
+  background: #1db954;
+}
 .barra-short {
   height: 5px;
   background: #666969;
@@ -297,16 +318,18 @@ a {
   margin-left: 5px;
   position: relative;
 }
+.barra-short:hover .p-40 {
+  display: inline;
+}
 .p-40 {
   height: 5px;
-  background: #1db954;
   border-radius: 5px;
   width: 50%;
   margin-top: 25px;
-  margin-left: 5px;
   position: absolute;
-  left: -5px;
   bottom: 0;
+  display: none;
+  background: #1db954;
 }
 .cerchio {
   width:13px;
@@ -314,7 +337,7 @@ a {
 	border-radius:50px;
 	background:white;
   position: absolute;
-  left: 63px;
+  left: 50%;
   bottom: -4px;
 }
 .cerchio-vol {
@@ -521,7 +544,6 @@ a {
     width: 11px;
     height: 11px;
     position: absolute;
-    left: 63px;
     bottom: -4px;
   }
   .control-center {
@@ -533,6 +555,9 @@ a {
   }
   .main-right {
     width: 100%;
+  }
+  .avanzamento-50 {
+    height: 3px;
   }
 }
 @media (max-width: 650px) {
@@ -583,12 +608,14 @@ a {
   .box-x div {
     width: 60%;
     margin-top: 30px;
+    margin-right: 0;
   }
   .box-x img {
     width: 85%;
     text-align: center;
     display: inherit;
     margin: auto;
+    max-height: 190px;
   }
   .bod-y h1 {
     margin: auto;
@@ -623,6 +650,33 @@ a {
   .control-center {
     width: 70%;
     height: 90%;
+  }
+  .head-mini {
+    display: none;
+    height: 300px;
+    width: 200px;
+    background: black;
+    opacity: 0.8;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: -200px;
+  }
+  .head-mini h4 {
+    color: white;
+    margin-top: 22px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .menu-mini:active .head-mini {
+    display: inherit;
+  }
+  .menu-mini {
+    z-index: 9999;
+    position: relative;
+  }
+  .main-right {
+    padding-left: 0;
   }
 }
 @media (min-width: 500px) {
